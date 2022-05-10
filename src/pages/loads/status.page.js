@@ -112,7 +112,7 @@ class LoadStatus extends React.Component{
                             <Form.Control
                                 className="input-search me-sm-2"
                                 type="text"
-                                placeholder="Ingrese el código de envío o la cédula del cliente que recibió el pedido..."
+                                placeholder="Ingrese el código de envío o la cédula del cliente que recibió el pedido, por ejemplo: ORD00001"
                                 value={ this.state.cod } 
                                 onChange={ this.onChangeCod.bind(this) }
                             />

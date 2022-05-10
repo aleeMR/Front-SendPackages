@@ -52,7 +52,7 @@ class LoadSends extends React.Component{
                             <Form.Control
                                 className="input-search me-sm-2"
                                 type="text"
-                                placeholder="Ingrese el código del cliente a consultar..."
+                                placeholder="Ingrese el código del cliente a consultar, por ejemplo: 1234567890"
                                 value={ this.state.card } 
                                 onChange={ this.onChangeCard.bind(this) }
                             />
